@@ -1,0 +1,264 @@
+body {
+    margin-left: 100px;
+    background-color: azure;
+}
+
+.container {
+    background-color: black;
+    width: 90%;
+    height: auto;
+    padding: 5px;
+}
+
+.head {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(43, 82, 143);
+}
+
+.head img {
+    width: 220px;
+    float: right;
+    overflow: hidden;
+}
+
+h1 {
+    color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+h3 {
+    color: aliceblue;
+    margin: 20px;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 5px;
+
+}
+
+nav {
+    background-color: rgb(43, 82, 143);
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    transition: 0.1s;
+
+}
+
+nav ul :hover {
+    color: burlywood;
+    transform: scale(0.9);
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    margin: 15px;
+    padding: 15px;
+    color: aliceblue;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+
+ul .sub li a {
+    margin: 2px;
+    padding: 2px;
+    text-transform: uppercase;
+    color: yellow;
+    margin: 2px;
+    padding: 3px;
+    align-items: center;
+    padding-bottom: 5px;
+
+
+
+}
+
+ul .sub li a:hover {
+    color: black;
+
+
+}
+
+nav ul ul {
+    position: absolute;
+    left: -999px;
+    color: black;
+    background-color: teal;
+    width: auto;
+    height: auto;
+    transition: 0.9s;
+}
+
+nav ul li:hover ul {
+    left: auto;
+    display: block;
+    text-align: center;
+    margin: 2px;
+    padding: 5px;
+    transform: scale(1.0);
+    transition: 0.1s;
+    margin-left: 20px;
+
+}
+
+ul li li {
+
+    border-bottom: solid 1px white;
+    padding: 5 px;
+    margin: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+
+}
+
+ul ul li {
+    margin: 15px;
+}
+
+
+
+
+.content2 img {
+    width: 200px;
+}
+
+p {
+    color: aliceblue;
+    overflow: hidden;
+}
+
+.content {
+    width: 97%;
+    height: 300px;
+    border: solid 3px burlywood;
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.content img {
+    width: 200px;
+    float: left;
+
+
+
+}
+
+.content p {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.content2 {
+    width: 97%;
+    height: 300px;
+    border: solid 3px burlywood;
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 20px;
+
+}
+
+.content2 img {
+    width: 200px;
+    float: right;
+
+
+
+}
+
+.content2 p {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    overflow: hidden;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.card {
+    width: 25%;
+    height: auto;
+    border: solid 2px burlywood;
+    margin: 20px;
+    margin-top: 15px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.card img {
+    width: 280px;
+    align-items: center;
+
+}
+
+.card p {
+    overflow: hidden;
+
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(43, 82, 143);
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer h2 {
+
+    text-align: center;
+    color: aliceblue;
+
+}

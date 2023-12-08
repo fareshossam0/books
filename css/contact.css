@@ -1,0 +1,166 @@
+body{
+    background-color: cornsilk;
+    
+}  
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    transition: 0.1s;
+    background-color: rgb(161, 101, 217);
+    width: 85%;
+    height: 50px;
+    margin-left: 100px;
+    border-radius: 25px;
+    padding: 2px;
+    
+
+}
+
+nav ul :hover {
+    color: aliceblue;
+    transform: scale(0.9);
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    margin: 15px;
+    margin-top: 25px;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+
+ul .sub li a {
+    margin: 2px;
+    padding: 2px;
+    text-transform: uppercase;
+    color: yellow;
+    margin: 2px;
+    padding: 3px;
+    align-items: center;
+    padding-bottom: 5px;
+
+
+
+}
+
+ul .sub li a:hover {
+    color: black;
+
+
+}
+
+nav ul ul {
+    position: absolute;
+    left: -999px;
+    color: black;
+    background-color: teal;
+    width: auto;
+    height: auto;
+    transition: 0.9s;
+}
+
+nav ul li:hover ul {
+    left: auto;
+    display: block;
+    text-align: center;
+    margin: 2px;
+    padding: 5px;
+    transform: scale(1.0);
+    transition: 0.1s;
+    margin-left: 20px;
+
+}
+
+ul li li {
+
+    border-bottom: solid 1px white;
+    padding: 5 px;
+    margin: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+
+}
+
+ul ul li {
+    margin: 15px;
+}
+
+.contact-page img {
+    width: 600px;
+    height: 600px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-right: 200px;
+    float: right;
+}
+
+.form {
+    float: left;
+    margin-top: 5px;
+   margin-left: 150px;
+    margin-bottom: 50px;
+    
+}
+.form label {
+    font-size: 30px;
+   padding: 10px;
+   margin: 10px;
+
+}
+.form input {
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    width: auto;
+    border: 3px aliceblue;
+    box-shadow: 0 5px 15px  rgb(161, 101, 217);
+    
+}
+.form select{
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 3px aliceblue;
+    box-shadow: 0 2px 15px  rgb(161, 101, 217);
+   
+}
+.form textarea{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 15px;
+    border: 3px aliceblue;
+    box-shadow: 0 2px 15px  rgb(161, 101, 217);
+    padding: 15px;
+    font-size: 15px;
+}
+.form .btn{
+    padding: 10px;
+    margin: 20px;
+    font-size: 25px;
+    background-color: rgb(161, 101, 217);
+    border: solid 1px burlywood;
+}
+.form .btn:hover{
+    background-color: teal;
+    color: aliceblue;
+}
